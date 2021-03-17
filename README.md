@@ -14,7 +14,7 @@ From the UrBackup server set /data in "Default Directories to Backup".
     version: '3.5'
     services:
       urbackup_client_srv1:
-        image: tamuxx/urbackup_client_smb
+        image: tamuxx/urbackup-client-smb
         container_name: srv1_urclient
         restart: unless-stopped
         hostname: SRV1
