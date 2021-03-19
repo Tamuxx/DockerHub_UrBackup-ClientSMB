@@ -26,9 +26,9 @@ From the UrBackup server set /data in "Default Directories to Backup".
           - DOMAIN=domain or server name
           - USER=user
           - PASS=password
-      networks:
-        backup_bridge:
-          ipv4_address: 10.101.0.10
+        networks:
+          backup_bridge:
+            ipv4_address: 10.101.0.10
     networks:
       backup_bridge:
         name: docker2
